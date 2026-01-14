@@ -7,44 +7,37 @@ Users can register, log in securely, create and manage tasks, set priorities and
 The application focuses on simplicity, usability, and reliability, avoiding unnecessary complexity while still providing all essential task-management features.
 
 Tech Stack
-
 Frontend: React.js, Bootstrap, Axios
-
 Backend: Node.js, Express.js
-
 Database: MongoDB (Mongoose ORM)
-
 Authentication: JWT (JSON Web Tokens)
-
 API Documentation: Swagger (OpenAPI)
 
 Setup Instructions
 Backend
 
-Clone the repository
-
+Clone the repository:
 git clone <repository-url>
 
 
-Navigate to backend directory
-
+Navigate to backend directory:
 cd backend
 
 
-Install dependencies
-
+Install dependencies:
 npm install
 
 
 Configure environment variables (.env)
 
-PORT=5000
+PORT=5000 
+
 MONGO_URI=your_mongodb_connection_string
+
 JWT_SECRET=your_jwt_secret
 
 
 Start the server
-
 npm run dev
 
 
@@ -52,74 +45,34 @@ Swagger API documentation will be available at
 
 http://localhost:5000/api-docs
 
-Frontend
-
-Navigate to frontend directory
-
-cd frontend
-
-
-Install dependencies
-
-npm install
-
-
-Configure API base URL (if needed) in Axios setup
-
-Start the development server
-
-npm run dev
-
-
-Open the app in browser
-
-http://localhost:5173
-
 Features Implemented
-Authentication
-
+Authentication:
 User registration and login
-
 JWT-based authentication
-
 Protected routes for authenticated users only
 
-Task Management
-
+Task Management:
 Create, read, update, and delete tasks
-
 Task categories and priority levels (High, Medium, Low)
-
 Task status tracking (Pending, In Progress, Completed)
-
 Due date support
-
 Automatic overdue task detection
 
-Dashboard
-
+Dashboard:
 Task statistics (total, pending, completed, overdue)
-
 Visual highlighting of overdue tasks
-
-Responsive dashboard layout
 
 API & Backend
 
 RESTful API design
-
 Secure user-specific data access
-
 Swagger documentation for all endpoints
 
-Future Enhancements
+Future Enhancements:
 
 Email or in-app notifications for overdue tasks
-
 Advanced search and sorting
-
 Task reminders
-
 Role-based access (teams / shared tasks)
 
 Challenges and Solutions
@@ -141,8 +94,7 @@ The API documentation was carefully refactored to follow strict YAML syntax rule
 
 Live Demo & Submission
 
-Live Deployment: https://task-manager-backend-yiqo.onrender.com/api-docs/#/Tasks/put_api_tasks__id_
-
+Live Deployment: https://task-manager-backend-yiqo.onrender.com/api-docs/ 
 API Documentation: Swagger UI
 
 Video Demo: (2–3 minute walkthrough)

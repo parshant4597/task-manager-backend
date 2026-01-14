@@ -10,7 +10,7 @@ documented using Swagger (OpenAPI).
 
 ---
 
-## 🚀 Features
+## Features
 
 - User Registration & Login (JWT Authentication)
 - Protected Routes
@@ -23,7 +23,7 @@ documented using Swagger (OpenAPI).
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - Node.js
 - Express.js
@@ -33,28 +33,7 @@ documented using Swagger (OpenAPI).
 - Postman (API Testing)
 
 ---
-
-## 📁 Project Structure
-
-backend/
-│
-├── src/
-│ ├── app.js
-│ ├── server.js
-│ ├── config/
-│ ├── models/
-│ ├── controllers/
-│ ├── routes/
-│ ├── middleware/
-│ └── utils/
-│
-├── swagger.yaml
-├── .env
-├── package.json
-└── README.md
----
-
-## 🔐 Authentication
+##  Authentication
 
 All task-related APIs are protected using JWT.
 Include the token in request headers:
@@ -62,14 +41,14 @@ Include the token in request headers:
 
 ---
 
-## 🧪 API Testing
+##  API Testing
 
 - APIs can be tested using **Postman**
 - Interactive API documentation available via **Swagger UI**
 
 ---
 
-## 📊 Task Statistics API
+## Task Statistics API
 
 Provides:
 - Total tasks
@@ -80,7 +59,7 @@ Provides:
 
 ---
 
-## 🎯 Purpose
+## Purpose
 
 This project focuses on backend system design and follows
 industry best practices for scalable REST API development.

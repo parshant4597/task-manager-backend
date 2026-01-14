@@ -12,7 +12,7 @@ const {
   updateTask,
   deleteTask,
   getTaskStats
-} = require("../contollers/taskContoller");
+} = require("../controllers/taskController");
 
 const protect = require("../middleware/authMiddleware");
 
